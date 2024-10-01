@@ -157,7 +157,6 @@
   justify-content: space-between;
   width: 1100px;
   margin: 0 auto 100px auto;
-  z-index: 2;
   
 }
 
@@ -189,7 +188,6 @@
   background-color: #f2f2f2;
   position: relative;
   min-height: 890px;
-  
 }
 
 .feynman__title {
@@ -235,7 +233,6 @@
   flex-direction: column;
   position: relative;
   overflow: hidden;
-  padding-bottom: 90px;
 }
 
 .section-title_theme_dark {
@@ -248,11 +245,12 @@
 }
 
 .table_theme_dark {
-  margin-bottom:90px;
+  z-index:100;
+  margin-bottom: 90px;
+  padding-bottom:15px;
 }
 
 .kaufman__triangle {
-  z-index: 1;
   position: absolute;
   right:-210px;
   top:0;
@@ -271,11 +269,11 @@
 
 .footer {
   background-color: #1f1f1f;
+  display:flex;
   min-height: 350px;
   box-sizing: border-box;
-  margin-bottom: 0;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  margin-bottom: 0; 
+  padding-top:0px;
 }
 
 .footer__columns {
@@ -285,7 +283,7 @@
   min-height: 250px;
   justify-content: space-between;
   width: 90%;
-  margin:auto;
+  margin:60px auto 40px auto;
 }
 
 .logo_place_footer {
@@ -320,7 +318,7 @@
 }
 
 .footer__column-links {
-  color:#fff;
+  color:white;
   display: flex;
   flex-direction: column;
   padding-bottom: 16px;
@@ -335,6 +333,10 @@
   text-decoration: none;
   margin-top:0px;
   padding-top:0;
+}
+
+.footer__column-link_style_social {
+  color:grey;
 }
 
 .footer__social-icon {
