@@ -6,7 +6,7 @@
     margin-bottom: 64px;
     line-height: 1.2px;
     max-width: 640px;
-    align-self: 450px;
+    align-self: center;
 }
 
 @media screen and (max-width: 1024px) {
